@@ -1,0 +1,19 @@
+# deps
+node_modules
+/.next
+/out
+
+# env (含 DeepSeek key，绝不入库)
+.env
+.env*.local
+
+# misc
+*.pem
+.DS_Store
+
+# debug
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
